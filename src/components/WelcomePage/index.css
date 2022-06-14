@@ -1,0 +1,44 @@
+.welcome_container{
+  font-family: nunito;
+  font-weight: 800;
+  font-size: 38px;
+  color: #ffffff;
+}
+
+.tittle {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.nu_tittle {
+  color: #FD377E;
+}
+
+.welcome_text {
+  line-height: 48px;
+}
+
+.welcome_text--small {
+  font-size: 16px;
+  line-height: 26px;
+
+  margin: 28px 0px 28px 0px;
+}
+
+.begin_Button {
+  min-width: 241px;
+  min-height: 48px;
+
+  font-family: inter;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+
+  background-color: #FD377E;
+  border: none;
+  border-radius: 8px;
+}
+
+.begin_Button:hover {
+  cursor: pointer;
+}

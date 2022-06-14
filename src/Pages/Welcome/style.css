@@ -1,0 +1,23 @@
+.welcome_page {
+  height: 1000px;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 48px;
+
+  background-color: #212529;
+  overflow: auto;
+}
+
+@media (min-width: 768px) {
+  
+  .welcome_page {
+    flex-direction: row;
+    height: 100vh;
+  }
+
+}

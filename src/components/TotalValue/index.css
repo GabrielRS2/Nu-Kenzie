@@ -1,0 +1,57 @@
+.totalValue_container-position {
+  width: 100vw;
+
+  display: flex;
+  justify-content: center;
+}
+
+.totalValue_container {
+  width: 363px;
+  height: 93px;
+  margin: 32px 5vw 0px 5vw;
+
+  display: flex;
+  justify-content: space-between;
+
+  border: 1px solid #E9ECEF;
+  border-radius: 4px;
+}
+
+.totalValue_total {
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+
+  margin: 20px 0px 0px 24px;
+}
+
+.totalValue_description {
+  font-family: 'Nunito';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 22px;
+
+  margin: 6px 0px 0px 24px;
+}
+
+.totalValue_value {
+  font-family: 'Nunito';
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  color: #FD377E;
+
+  margin: 20px 24px 0px 0px;
+}
+
+
+@media (min-width: 768px) {
+  .totalValue_container-position {
+    width: auto;
+    position: absolute;
+
+    left: 12vw;
+    top: 63vh;
+  }
+}

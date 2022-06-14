@@ -1,0 +1,23 @@
+.button_list {
+  padding: 10.5px 15px 10.5px 15px;
+  padding: 8px 12px 8px 12px;
+  border: none;
+  border-radius: 8px;
+
+  font-family: 'Nunito';
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.button_list:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .button_list {
+    padding: 10.5px 15px 10.5px 15px;
+  
+    font-size: 14px;
+  }
+}

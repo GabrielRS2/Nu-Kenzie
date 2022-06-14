@@ -1,0 +1,32 @@
+.fitersContainer {
+  width: 90vw;
+  margin: 0px 5vw 0px 5vw;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.filters {
+  display: flex;
+  gap: 5px;
+}
+
+.filterText {
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .filterText {
+    font-size: 16px;
+  }
+  
+  .fitersContainer {
+    width: 565px;
+  }
+
+}

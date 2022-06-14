@@ -1,0 +1,32 @@
+.formButton_container {
+  width: 90vw;
+  margin: 32px 5vw 0px 5vw;
+
+  display: flex;
+  justify-content: center;
+}
+
+.button_Form {
+  width: 314px;
+  height: 48px;
+
+  background-color: #FD377E;
+  border: none;
+  border-radius: 8px;
+
+  font-family: 'inter';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+.button_Form:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .button_Form {
+    display: none;
+  }
+}
